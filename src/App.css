@@ -1,0 +1,240 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+.row {
+  margin:0;
+  padding:0;
+}
+
+.container-fluid {
+  margin:0;
+  padding: 0;
+}
+a:link 
+{ 
+text-decoration:none;
+color:white;
+} 
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+  ul.selector li {
+    position: relative;
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 0 1em 0 1em;
+    cursor: pointer;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-color: #dee0e3;
+    height: 2.75em;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.cartenav {
+  border: 0.5px solid grey !important;
+  border-radius:5px;
+  
+}
+
+.nav-link{
+  color:white !important;
+}
+
+.nav-link:hover{
+background-color: grey;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+  background-image: linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+  padding-top:8em;
+  padding-bottom: 8em;
+}
+
+.icons {
+  justify-content: center;
+  padding:0;
+  margin:0;
+  color:rgb(218, 211, 211);
+}
+
+.icon {
+  color:rgb(218, 211, 211);
+}
+
+.li-icons {
+  text-decoration: none;
+  list-style: none;
+  margin-left:1em;
+  font-size:4em;
+  color:rgb(218, 211, 211);
+}
+
+.copyright {
+  justify-content: center;
+  padding:0;
+  margin-left:1.3em;
+}
+
+.li-copyright {
+  text-decoration: none;
+  list-style: none;
+  margin-left:1em;
+  font-size:1em;
+  color:rgb(218, 211, 211);
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  margin:0;
+  padding:0;
+  text-align: center;
+  background-image: url(/img/four.jpg);
+  background-size: auto, cover;
+  padding-top:5em;
+  padding-bottom:5em;
+  background-attachment: fixed,	fixed;
+  border-radius:0;
+}
+
+hr {
+max-width: 15em;
+color:white !important;
+}
+
+.titlefour {
+  color:white;
+}
+
+
+.btnactive {
+background-color: white;
+color:black;
+}
+
+.btnactive:hover {
+  background-color: transparent;
+  color:white;
+  border: 1px solid white;
+  }
+
+.btnnormal {
+  margin-left:3em;
+  background-color: transparent;
+  border: 1px solid white;
+  color:white;
+}
+
+.btnnormal:hover {
+  opacity:0.5;
+  background-color: white;
+  color:white;
+}
+
+p {
+  color:white;
+}
+
+
+/* THREE */
+
+.h2three {
+  text-align: center;
+  color:grey;
+  margin-top:4em;
+  margin-bottom:2em;
+}
+
+.pthree {
+  color:grey;
+  text-align: center;
+  margin-top:3em;
+  margin-bottom: 3em;
+}
+
+.image.fit img {
+  width: 100%;
+  
+}
+.image img {
+  border-radius: 4px;
+  display: block;
+}
+
+
+.card {
+  border:none;
+  margin-left:5em;
+}
+
+.card-text {
+  color:grey;
+  text-align: center;
+  font-size:1.2em;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom:2em;
+  margin-top:2em;
+  font-size:1.7em;
+  color:grey;
+}
+
+.btncard {
+  background-color: white;
+  color:black;
+  border: 1px solid grey;
+  margin-left: 6em;
+  width: 12em;
+  margin-bottom:4em;
+  margin-top:4em;
+}
+
+.cardfirst {
+  margin-left:10em;
+
+}
