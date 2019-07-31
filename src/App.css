@@ -12,6 +12,7 @@ body {
   margin:0;
   padding: 0;
 }
+
 a:link 
 { 
 text-decoration:none;
@@ -133,7 +134,7 @@ background-color: grey;
   padding:0;
   text-align: center;
   background-image: url(/img/four.jpg);
-  background-size: auto, cover;
+  background-size: 100%, cover;
   padding-top:5em;
   padding-bottom:5em;
   background-attachment: fixed,	fixed;
@@ -153,6 +154,7 @@ color:white !important;
 .btnactive {
 background-color: white;
 color:black;
+width:12em !important;
 }
 
 .btnactive:hover {
@@ -166,12 +168,12 @@ color:black;
   background-color: transparent;
   border: 1px solid white;
   color:white;
+  width:12em !important;
 }
 
 .btnnormal:hover {
-  opacity:0.5;
   background-color: white;
-  color:white;
+  color:black;
 }
 
 p {
@@ -237,4 +239,148 @@ p {
 .cardfirst {
   margin-left:10em;
 
+}
+
+.bgimg{
+  padding: 9em 0 9em 0;
+  background-color: #4686a0;
+  color: rgba(255, 255, 255, 0.75);
+  background-attachment: fixed,	fixed,	fixed;
+  background-image:  linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+  background-position: top left,	center center, center center;
+  background-size: auto,	cover,	cover;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.button {
+  box-shadow: inset 0 0 0 1px #ffffff;
+  color: #ffffff !important;
+}
+
+#header a {
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+li{
+  list-style: none;
+}
+.button {
+  height: 3em;
+  line-height: 3em;
+}
+  
+.button {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px white;
+  color: white !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 400;
+  height: 2.75em;
+  letter-spacing: 0.125em;
+  line-height: 2.75em;
+  padding: 0 2em;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0.125em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-left: -40px;
+}
+
+
+h2 {
+  font-size: 2em;
+  line-height: 1.35em;
+  color: #555;
+}
+img{
+border-radius: 4px;
+}
+
+.txtfirst {
+  color:black;
+}
+
+.eng{
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.75);
+  background-attachment: fixed,	fixed;
+  background-image: url(/img/four.jpg);
+  background-size: auto,	cover;
+}
+ul {
+  
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.rot{
+  width: 146px;
+  border: solid 2px white;
+  transform: rotate(45deg);
+  border-radius: 4px;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  margin-right: 3.5em;
+}
+ul.major-icons li {
+  display: inline-block;
+  text-align: center;
+  padding-top: 2em; 
+  padding-bottom: 2em;
+ 
+}
+ul.major-icons {
+  list-style: none;
+  padding-left: 0;
+}
+.batmain {
+
+  
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  transform: rotate(-45deg);
+ 
+}
+.titreMain{
+  color: white;
+}
+.fa-calendar:before {
+  color: #6b88e6;
+}
+.fa-desktop:before {
+  color: #4a87d3;
+}
+.fa-cog:before{
+  color: #57aed3;
+}
+.fa-camera-retro:before{
+  color: #6bd4c8;
+}
+.fa-bolt:before{
+  color: #8addaa;
+}
+.fa-code:before{
+  color: #c3e895;
+}
+.esp{
+  margin-top: 5em;
+  margin-left: 2em;
+  margin-right: 3em;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
 }
